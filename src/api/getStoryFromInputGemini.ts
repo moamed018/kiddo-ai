@@ -103,7 +103,7 @@ export const withoutInput = async (
                 {
                     "scene_number": number,
                     "scene_text": string (at least 7 meaningful sentences),
-                    "scene_description": string for image
+                    "scene_description": string for image (Always make the scene_description in English)
                 }
             ],
             "can_generate_images": boolean (if scene_text is enough to generate image),
