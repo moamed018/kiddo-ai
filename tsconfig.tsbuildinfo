@@ -1,0 +1,1 @@
+{"root":["./src/i18n.ts","./src/vite-env.d.ts","./src/api/getimagegemini.ts","./src/api/getstoryfrominput.ts","./src/api/getstoryfrominputgemini.ts","./src/types/generative-ai.d.ts"],"errors":true,"version":"5.7.3"}

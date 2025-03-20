@@ -1,0 +1,148 @@
+{
+    "app": "app",
+    "Settings": "Settings",
+    "Theme": "Theme",
+    "Dark Mode": "Dark Mode",
+    "Font Size": "Font Size",
+    "Language": "Language",
+    "Dark": "Dark",
+    "Light": "Light",
+    "Aa": "Aa",
+    "heroHeading": "Learning is fun with Kiddo AI!",
+    "heroSubheading": "Your smart assistant to understand lessons through interactive stories and auto-reading.",
+    "heroButton": "Get Started",
+    "featuresHeading": "Features",
+    "featuresSubheading": "Kiddo AI is designed to make learning fun and engaging for kids.",
+    "feature1": {
+        "title": "Easy Learning",
+        "description": "Learn lessons in a fun and easy way through interactive stories."
+    },
+    "feature2": {
+        "title": "Interactive Stories",
+        "description": "Read suggested or custom stories with auto-reading support."
+    },
+    "feature3": {
+        "title": "Simple and Fun Interface for Kids",
+        "description": "Simple design and attractive colors."
+    },
+    "howItWorkHeading": "How It Works?",
+    "lessonsHeading": "lessons",
+    "storiesHeading": "Stories",
+    "lessonsSteppers": {
+        "step1": {
+            "title": "Enter",
+            "heading": "Enter Lesson Title Or Upload PDF",
+            "description": "Enter the lesson title you want to learn or upload a PDF file to get started."
+        },
+        "step2": {
+            "title": "Customize",
+            "heading": "Customize Ai Response",
+            "description": "Customize the AI response to make it more interactive and engaging like size, has image, has audio"
+        },
+        "step3": {
+            "title": "Enjoy",
+            "heading": "Enjoy Learning",
+            "description": "Enjoy learning with Kiddo AI through interactive stories and auto-reading (Soon)."
+        }
+    },
+    "storiesSteppers": {
+        "step1": {
+            "title": "Enter",
+            "heading": "Enter Story Title Or Make Ai suggest",
+            "description": "Enter the story title you want to read or make AI suggest a story for you."
+        },
+        "step2": {
+            "title": "Customize",
+            "heading": "Customize Ai Response",
+            "description": "Customize the AI response to make it more interactive and engaging like size, has image, has audio"
+        },
+        "step3": {
+            "title": "Enjoy",
+            "heading": "Enjoy Learning",
+            "description": "Enjoy learning with Kiddo AI through interactive stories and auto-reading (Soon)."
+        }
+    },
+    "whyHeading": "Why Kiddo AI?",
+    "why1": "Provides an alternative to expensive private lessons.",
+    "why2": "Helps children understand without time strain.",
+    "why3": "Fun and entertaining experience through interactive stories.",
+    "CTAHeading": "Ready to get started?",
+    "CTAText": "Sign up now and start using our services for free.",
+    "CTAButton": "Sign Up Now",
+    "faq": {
+        "heading": "FAQ",
+        "q1": {
+            "title": "Can I try Kiddo AI for free?",
+            "answer": "Yes, Kiddo AI is free."
+        },
+        "q2": {
+            "title": "Can I cancel my subscription at any time?",
+            "answer": "Yes, you can cancel your subscription at any time."
+        },
+        "q3": {
+            "title": "Can I change the story?",
+            "answer": "Yes, you can change the story."
+        },
+        "q4": {
+            "title": "Can I change the story language?",
+            "answer": "Yes, you can change the story language."
+        },
+        "q5": {
+            "title": "How can I download a lesson or story?",
+            "answer": "You can download the lesson or story by clicking the download button and you can download the story or lesson as a PDF or audio file (if available)."
+        },
+        "q6": {
+            "title": "Is the content here 100% safe?",
+            "answer": "This content is provided by AI, and since AI is still in continuous development, we cannot guarantee that all content here is 100% safe, but we do our best to ensure that."
+        }
+    },
+    "footer": "Kiddo AI. All rights reserved.",
+    "infoMessage": "We do not store any of your information on our servers. All your data, including your email, name, stories, and lessons you have created, are stored only on your personal browser.",
+    "bakeToHome": "Back to Home",
+    "pleaseLogin": "Please login to access this page.",
+    "unauthorized": "Unauthorized.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "signUpMessage": "Already have an account?",
+    "loginMessage": "Don't have an account?",
+    "signUpLink": "Login Now",
+    "LoginLink": "Sign Up Now",
+    "accountAlready": "Email already in use!",
+    "signUpSuccess": "Account created successfully!",
+    "loginSuccess": "Login successful!",
+    "emailNotFound": "Email not found!",
+    "error": "Error",
+    "success": "Success",
+    "enterFullName": "Enter Full Name",
+    "enterEmail": "Enter Email",
+    "pleaseLogoutFirstToSignup": "Please logout first to signUp",
+    "pleaseLogoutFirstToLogin": "Please logout first to login",
+    "logoutSuccess": "Logout successful!",
+    "logout": "Logout",
+    "theme&language": "Theme & Language",
+    "hi": "Hi",
+    "createNewStory": "Create New Story",
+    "inputTitle": "Input Title",
+    "aiSuggestion": "Ai Suggestion",
+    "enterTitle": "Enter Story Title",
+    "limitLetter": "Count Letter",
+    "preferences": "Preferences",
+    "images": "Images",
+    "audio": "Audio",
+    "selectAll": "Select All",
+    "unSelectAll": "Unselect All",
+    "includes": "Includes",
+    "arabic": "Arabic",
+    "english": "English",
+    "language": "Language",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "textSize": "Text Size",
+    "status": "Status",
+    "createNewLesson": "Create New Lesson",
+    "inputLessonTitle": "Input Lesson Title",
+    "pdfUpload": "PDF Upload"
+}

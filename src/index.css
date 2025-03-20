@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+    --color-main: var(--main-color);
+    --color-main-bg: var(--main-bg);
+    --color-main-text: var(--main-text);
+
+    --animate-wiggle: wiggle 1s ease-in-out infinite;
+    @keyframes wiggle {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-1px);
+        }
+        50% {
+            transform: translateX(1px);
+        }
+        75% {
+            transform: translateX(-1px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
+
+:root {
+    font-size: var(--font-size);
+}
+
+body {
+    background-color: var(--color-main-bg);
+    color: var(--color-main-text);
+    direction: var(--dir);
+}
