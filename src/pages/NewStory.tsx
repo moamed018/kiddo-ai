@@ -7,7 +7,7 @@ import { InputText } from "primereact/inputtext";
 import GetStoryFromInputGemini, {
     withoutInput,
 } from "../api/getStoryFromInputGemini";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Button } from "primereact/button";
 import { BlockUI } from "primereact/blockui";
 import { Panel } from "primereact/panel";
@@ -24,6 +24,8 @@ import generateImage from "../api/getImageGemini";
 import { Image } from "primereact/image";
 import html2canvas from "html2canvas";
 import { jsPDF } from "jspdf";
+import { toast } from "react-toastify";
+import { Tooltip } from "primereact/tooltip";
 
 interface ImageData {
     mimeType: string;
@@ -313,6 +315,19 @@ export default function NewStory() {
         }
     };
 
+    useEffect(() => {
+        toast.warn(t("image-not-working"), {
+            position: "bottom-center",
+            autoClose: false,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            className: "!w-[90vw]",
+        });
+    }, [t]);
+
     return (
         <>
             <Panel
@@ -543,6 +558,17 @@ export default function NewStory() {
                                                     }}
                                                 ></Checkbox>
                                                 {t("images")}
+                                                <i
+                                                    className="custom-info-icon pi pi-info-circle ms-1"
+                                                    data-pr-tooltip={t(
+                                                        "image-not-working"
+                                                    )}
+                                                    data-pr-position="top"
+                                                ></i>
+                                                <Tooltip
+                                                    target=".custom-info-icon"
+                                                    className="!text-sm"
+                                                />
                                             </label>
                                             <label className="flex !cursor-not-allowed gap-1 items-center line-through">
                                                 <Checkbox
@@ -1042,6 +1068,17 @@ export default function NewStory() {
                                                     }}
                                                 ></Checkbox>
                                                 {t("images")}
+                                                <i
+                                                    className="custom-info-icon pi pi-info-circle ms-1"
+                                                    data-pr-tooltip={t(
+                                                        "image-not-working"
+                                                    )}
+                                                    data-pr-position="top"
+                                                ></i>
+                                                <Tooltip
+                                                    target=".custom-info-icon"
+                                                    className="!text-sm"
+                                                />
                                             </label>
                                             <label className="flex !cursor-not-allowed gap-1 items-center line-through">
                                                 <Checkbox

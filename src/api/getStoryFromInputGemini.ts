@@ -96,7 +96,7 @@ export const withoutInput = async (
     const sys = obj?.withImages
         ? ` 
         You are a smart assistant for children.
-        Your task is to create a story based on Your Suggestion in ${language} language.
+        Your task is to create a story based on Your Suggestion in ${language} language except scene_description.
         Your response **must** be a **valid** JSON object with the following structure:
         {
             "scenes": [
@@ -112,7 +112,7 @@ export const withoutInput = async (
             "story_title": string
         }
         **Rules for generation:**
-        1. The story must be written in **pure ${language}** (avoid mixed languages or symbols).
+        1. The story must be written in **pure ${language}** except scene_description (avoid mixed languages or symbols).
         2. The "scene_text" field must contain at least **7 meaningful and connected sentences**.
         3. Avoid special characters like (\\\\, \\\\n, \\\\, “, ”).
         4. **Do not use escape characters.** Ensure the response is a valid JSON object.

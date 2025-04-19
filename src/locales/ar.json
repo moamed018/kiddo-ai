@@ -166,5 +166,6 @@
     "Failed to create lesson": "فشل في إنشاء الدرس",
     "Please enter a title for the story": "الرجاء إدخال عنوان للقصة",
     "Choose": "اختر",
-    "Clear": "مسح"
+    "Clear": "مسح",
+    "image-not-working": "يرجى العلم أن خاصية إضافة الصور متوقفة مؤقتًا بسبب إيقاف دعم نموذج Gemini-2.0-Flash-Exp-Image-Generation من قِبل Google في مناطق الشرق الأوسط وإفريقيا وأوروبا. نحن نعمل حاليًا على حل هذه المشكلة."
 }

@@ -144,5 +144,6 @@
     "status": "Status",
     "createNewLesson": "Create New Lesson",
     "inputLessonTitle": "Input Lesson Title",
-    "pdfUpload": "PDF Upload"
+    "pdfUpload": "PDF Upload",
+    "image-not-working": "Please note that the image addition feature is temporarily disabled due to the discontinuation of support for the Gemini-2.0-Flash-Exp-Image-Generation model by Google in the Middle East, Africa, and Europe. We are currently working on resolving this issue."
 }

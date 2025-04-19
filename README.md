@@ -1,7 +1,7 @@
 # Kiddo AI - Interactive Story Generator
 
 -   [Demo](https://kiddo-ai.vercel.app/)
--   [Presentation](https://docs.google.com/presentation/d/19sAL_06BltLH0maa2mSVILdMq-zJ_n7GN8rQQ9aIQO4/edit#slide=id.g34161591dcd_0_63)
+
 
 An AI-powered interactive story generator designed specifically for children. The application creates engaging stories with optional illustrations using advanced AI technologies.
 
